@@ -1,0 +1,9 @@
+package io.javabrains;
+
+public class Test {
+	public static void main(String[] args) {
+		int width = 10;
+		lambadInterface l = () -> {System.out.println("Length is "+width);};
+		l.draw();
+	}
+}

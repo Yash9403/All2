@@ -1,0 +1,18 @@
+package basecode64;
+
+import java.util.Base64;
+import java.util.Base64.Decoder;
+import java.util.Base64.Encoder;
+
+public class Test {
+	public static void main(String[] args) {
+		Encoder encoder = Base64.getMimeEncoder();
+		String s = "Yash Patil";
+		System.out.println(s);
+		String ss = encoder.encodeToString(s.getBytes());
+		System.out.println(ss);
+		
+		Decoder decoder = Base64.getMimeDecoder();
+	}
+
+}

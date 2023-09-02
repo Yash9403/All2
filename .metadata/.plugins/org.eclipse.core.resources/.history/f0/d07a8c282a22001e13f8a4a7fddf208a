@@ -1,0 +1,10 @@
+package basecode64;
+
+import java.util.Base64;
+
+public class Test {
+	public static void main(String[] args) {
+		Base64.Encoder encoder = new Base64.getMimeEncoder();
+	}
+
+}

@@ -1,0 +1,14 @@
+package basecode64;
+
+import java.util.Base64;
+import java.util.Base64.Encoder;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "India@11";
+		Encoder e = Base64.getMimeEncoder();
+		String se = e.encodeToString(s.getBytes());
+		System.out.println(se);
+	}
+
+}

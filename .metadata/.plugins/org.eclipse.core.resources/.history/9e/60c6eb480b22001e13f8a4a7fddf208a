@@ -1,0 +1,9 @@
+package main;
+
+public class JavaStreamExample {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

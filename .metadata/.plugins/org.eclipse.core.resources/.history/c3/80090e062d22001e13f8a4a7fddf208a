@@ -1,0 +1,12 @@
+package basecode64;
+
+import java.util.Base64;
+import java.util.Base64.Encoder;
+
+public class URLEncoding {
+	public static void main(String[] args) {
+		Encoder eurl = Base64.getUrlEncoder();
+		String url = "http://www.javatpoint.com/java-tutorial/";
+	}
+
+}
